@@ -29,15 +29,22 @@ function handleHealthCheck(req, res) {
   });
 }
 
+let staticPublications = [];
+try {
+  staticPublications = require('../public/data/publications.json');
+} catch (e) {
+  staticPublications = [];
+}
+
 /**
  * Publications listing handler
  * Returns published academic papers with optional category filtering.
  */
 function handlePublications(req, res) {
   try {
-    const dataPath = path.join(__dirname, '../public/data/publications.json');
-    const raw = fs.readFileSync(dataPath, 'utf-8');
-    let publications = JSON.parse(raw);
+    let publications = Array.isArray(staticPublications) && staticPublications.length > 0
+      ? [...staticPublications]
+      : JSON.parse(fs.readFileSync(path.join(__dirname, '../public/data/publications.json'), 'utf-8'));
 
     const { category, type, search } = req.query;
 
