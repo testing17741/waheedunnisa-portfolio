@@ -1,0 +1,109 @@
+/**
+ * Design Tokens: Waheedunnisa Nizamuddin Chaudri Academic System
+ * Defined once, strictly reused across all stylesheets.
+ * Light and dark modes powered by standard CSS custom properties.
+ */
+
+:root {
+  /* Color Palette — Light Mode (Warm Paper, Botanical Forest, Lutein Amber) */
+  --color-primary: #153E31;
+  --color-primary-hover: #0E2B22;
+  --color-primary-subtle: #EBF3EF;
+  --color-accent: #B86E06;
+  --color-accent-hover: #965702;
+  --color-accent-subtle: #FEF7ED;
+  --color-surface: #F9FAF7;
+  --color-surface-elevated: #FFFFFF;
+  --color-card: #FFFFFF;
+  --color-card-border: #E5E7EB;
+  --color-border: #E5E7EB;
+  --color-border-subtle: #F3F4F6;
+  --color-text: #1F2937;
+  --color-text-muted: #4B5563;
+  --color-text-light: #6B7280;
+  --color-code-bg: #F3F4F6;
+  --color-success: #15803D;
+  --color-success-bg: #F0FDF4;
+  --color-error: #B91C1C;
+  --color-error-bg: #FEF2F2;
+
+  /* Typography Scale */
+  --font-serif: "Newsreader", "Charter", "Bitstream Charter", "Georgia", serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+
+  --text-xs: 0.75rem;    /* 12px */
+  --text-sm: 0.875rem;   /* 14px */
+  --text-base: 1rem;     /* 16px */
+  --text-lg: 1.125rem;   /* 18px */
+  --text-xl: 1.25rem;    /* 20px */
+  --text-2xl: 1.5rem;    /* 24px */
+  --text-3xl: 1.875rem;  /* 30px */
+  --text-4xl: 2.25rem;   /* 36px */
+  --text-5xl: 3rem;      /* 48px */
+
+  --leading-tight: 1.2;
+  --leading-snug: 1.35;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+
+  /* Spacing Scale */
+  --space-1: 0.25rem;  /* 4px */
+  --space-2: 0.5rem;   /* 8px */
+  --space-3: 0.75rem;  /* 12px */
+  --space-4: 1rem;     /* 16px */
+  --space-5: 1.25rem;  /* 20px */
+  --space-6: 1.5rem;   /* 24px */
+  --space-8: 2rem;     /* 32px */
+  --space-10: 2.5rem;  /* 40px */
+  --space-12: 3rem;    /* 48px */
+  --space-16: 4rem;    /* 64px */
+  --space-20: 5rem;    /* 80px */
+
+  /* Layout Containers */
+  --container-max: 1140px;
+  --container-narrow: 840px;
+
+  /* Border Radii */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-full: 9999px;
+
+  /* Shadows (Minimal, crisp, no blur mush) */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 220ms ease;
+}
+
+/* Dark Mode Overrides */
+[data-theme="dark"] {
+  --color-primary: #52B788;
+  --color-primary-hover: #74C69D;
+  --color-primary-subtle: #162B22;
+  --color-accent: #E29532;
+  --color-accent-hover: #F2A94E;
+  --color-accent-subtle: #2C2114;
+  --color-surface: #0E1613;
+  --color-surface-elevated: #15221D;
+  --color-card: #14201B;
+  --color-card-border: #23362E;
+  --color-border: #23362E;
+  --color-border-subtle: #1A2822;
+  --color-text: #E5EBE8;
+  --color-text-muted: #9EAEA6;
+  --color-text-light: #76867F;
+  --color-code-bg: #1A2822;
+  --color-success: #4ADE80;
+  --color-success-bg: #143521;
+  --color-error: #F87171;
+  --color-error-bg: #381515;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.55);
+}

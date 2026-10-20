@@ -1,0 +1,88 @@
+[
+  {
+    "id": "project-marigold-catfish-pigmentation",
+    "title": "Ensilage Microflora for Xanthophyll & Carotene Extraction and Catfish Pigmentation",
+    "status": "Doctoral Research (Finalizing Dissertation)",
+    "period": "2020 - 2024",
+    "investigator": "Waheedunnisa Nizamuddin Chaudri",
+    "guide": "Dr. Shruti L. Samant",
+    "institution": "Department of Microbiology, SIES College of Arts, Science & Commerce (Empowered Autonomous), Sion, Mumbai",
+    "summary": "Transforms municipal and temple marigold (Tagetes erecta) floral waste into high-value xanthophylls (lutein) and carotenes using anaerobic microbial ensilage. Evaluates biological uptake and coloration in freshwater catfish tissues to replace synthetic feed additives.",
+    "scientificPillars": [
+      {
+        "title": "Biomass Stabilization & Ensilage",
+        "description": "Floral offerings rot rapidly when discarded in water bodies, releasing methane and depleting dissolved oxygen. Anaerobic fermentation drops pH through lactic acid production, preserving delicate carotenoids from oxidation."
+      },
+      {
+        "title": "In-situ Cellulolytic Lysis",
+        "description": "Endogenous microflora and selected microbial strains produce cellulases and pectinases that digest thick plant cell walls, yielding up to 24.9 g of lutein per kg of flower dry matter without toxic halogenated organic solvents."
+      },
+      {
+        "title": "GC-MS Compound Fingerprinting",
+        "description": "Gas chromatography and mass spectrometry profiling identifies bioactive phytobiotics, fatty acid methyl esters, and antioxidant terpenes generated during ensilage fermentation."
+      },
+      {
+        "title": "Aquaculture Nutrition Efficacy",
+        "description": "Incorporation of microbially-extracted pigments into trial diets for catfish (Clarias batrachus / Pangasianodon hypophthalmus) with quantitative assessment of skin pigmentation and serum antioxidant markers."
+      }
+    ],
+    "microorganisms": [
+      {
+        "name": "Lactobacillus plantarum",
+        "type": "Lactic Acid Bacterium",
+        "role": "Rapid acidification, pH reduction (<4.2), and carotenoid preservation against oxidation"
+      },
+      {
+        "name": "Flavobacterium IIb",
+        "type": "Gram-negative Bacterium",
+        "role": "Synergistic pigment stabilization and organic acid production"
+      },
+      {
+        "name": "Acinetobacter anitratus",
+        "type": "Gram-negative Bacterium",
+        "role": "Biochemical bioconversion in ensilage flora succession"
+      },
+      {
+        "name": "Rhizopus nigricans",
+        "type": "Filamentous Fungus",
+        "role": "Potent cellulase and pectinase synthesis for lignocellulosic wall lysis"
+      }
+    ],
+    "outcomes": [
+      "Published peer-reviewed paper in JETIR (Vol 9, Issue 8, 2022).",
+      "Presented at University of Mumbai Aavishkar Research Convention.",
+      "Established non-destructive green extraction protocol for lutein recovery.",
+      "Zero-effluent floral waste valorization model applicable to temples across Maharashtra."
+    ]
+  },
+  {
+    "id": "project-experiential-pedagogy",
+    "title": "Experiential Pedagogy Framework: Mind Maps & Pre-Lab Worksheets in Microbiology",
+    "status": "Implemented & Evaluated in Curriculum",
+    "period": "2021 - Present",
+    "investigator": "Waheedunnisa Chaudri",
+    "guide": "Departmental Academic Research",
+    "institution": "SIES College of Arts, Science & Commerce, Sion",
+    "summary": "A research-backed pedagogical model addressing cognitive overload in undergraduate science laboratories by combining visual mind mapping, pre-laboratory structured worksheets, and formative digital quizzes.",
+    "scientificPillars": [
+      {
+        "title": "Visual Cognitive Chunking",
+        "description": "Mind maps link abstract biological principles (e.g. electron transport or bacterial operons) directly to the bench-level steps students perform in the laboratory."
+      },
+      {
+        "title": "Pre-Lab Formative Inquiry",
+        "description": "Students complete guided pre-lab worksheets before stepping into the laboratory, shifting laboratory hours from passive reading to active hypothesis testing."
+      },
+      {
+        "title": "Retention Measurement",
+        "description": "Pre-test and post-test assessments showed a statistically significant increase in 60-day concept retention and a 38% decrease in procedural bench errors."
+      }
+    ],
+    "microorganisms": [],
+    "outcomes": [
+      "Integrated into B.Sc. Semester II practical handbook published by My Rays Publishing House.",
+      "Shared openly on ResearchGate for STEM educators across universities.",
+      "Adopted across multiple laboratory modules in the Microbiology Department at SIES College."
+    ]
+  }
+]

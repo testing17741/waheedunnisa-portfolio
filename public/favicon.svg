@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#153E31"/>
+  <!-- Central microbial / petal nucleus -->
+  <circle cx="32" cy="32" r="8" fill="#B86E06"/>
+  <!-- Symmetrical microbial bio-petals (representing marigold floral ensilage & cellular microflora) -->
+  <path d="M32 10 C36 18, 36 24, 32 26 C28 24, 28 18, 32 10 Z" fill="#E29532" opacity="0.95"/>
+  <path d="M32 54 C36 46, 36 40, 32 38 C28 40, 28 46, 32 54 Z" fill="#E29532" opacity="0.95"/>
+  <path d="M10 32 C18 28, 24 28, 26 32 C24 36, 18 36, 10 32 Z" fill="#E29532" opacity="0.95"/>
+  <path d="M54 32 C46 28, 40 28, 38 32 C40 36, 46 36, 54 32 Z" fill="#E29532" opacity="0.95"/>
+  <circle cx="21" cy="21" r="3.5" fill="#52B788"/>
+  <circle cx="43" cy="21" r="3.5" fill="#52B788"/>
+  <circle cx="21" cy="43" r="3.5" fill="#52B788"/>
+  <circle cx="43" cy="43" r="3.5" fill="#52B788"/>
+</svg>

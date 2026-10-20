@@ -1,0 +1,32 @@
+{
+  "name": "waheedunnisa-chaudri-portfolio",
+  "version": "1.0.0",
+  "description": "Academic and scientific portfolio for Ms. Waheedunnisa Nizamuddin Chaudri — Ph.D. Scholar and Assistant Professor in Microbiology at SIES College, Mumbai.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "microbiology",
+    "academic-portfolio",
+    "waheedunnisa-chaudri",
+    "sies-college",
+    "phd-research",
+    "marigold-ensilage",
+    "waste-valorization",
+    "pedagogy"
+  ],
+  "author": "Waheedunnisa Nizamuddin Chaudri",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "zod": "^3.24.2"
+  }
+}

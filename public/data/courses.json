@@ -1,0 +1,70 @@
+[
+  {
+    "id": "course-microbial-physiology",
+    "code": "MIC-301",
+    "title": "Microbial Physiology & Metabolic Pathways",
+    "level": "Undergraduate B.Sc. (Semester III & IV)",
+    "institution": "SIES College of Arts, Science & Commerce (Empowered Autonomous), Sion",
+    "academicYear": "Current / Ongoing",
+    "description": "Exploration of bacterial growth kinetics, continuous and batch culture systems, energetic pathways (glycolysis, TCA, electron transport chains), membrane transport mechanisms, and metabolic regulation in response to environmental stressors.",
+    "keyTopics": [
+      "Bacterial Growth Energetics & Monod Model",
+      "Fermentative vs. Oxidative Metabolism",
+      "Biosynthesis of Secondary Metabolites",
+      "Chemostat & Turbidostat Dynamics",
+      "Spectrophotometric Biomass Quantification"
+    ],
+    "pedagogyTool": "Concept Mapping & Metabolic Flowchart Workshops"
+  },
+  {
+    "id": "course-environmental-microbiology",
+    "code": "MIC-402",
+    "title": "Environmental Microbiology & Waste Valorization",
+    "level": "Undergraduate B.Sc. (Semester IV & V)",
+    "institution": "SIES College of Arts, Science & Commerce, Sion",
+    "academicYear": "Current / Ongoing",
+    "description": "Applied study of microbial communities in soil, water, and air. Emphasis on organic waste conversion, anaerobic ensilage fermentation, microbial consortium dynamics, bioremediation of xenobiotics, and bio-fertilizer production.",
+    "keyTopics": [
+      "Solid Waste Degradation & Temple Flower Ensilage",
+      "Microbial Succession in Compost & Silage",
+      "Cellulolytic & Ligninolytic Enzyme Systems",
+      "Wastewater Microflora & MPN Testing",
+      "Circular Bio-Economy Frameworks"
+    ],
+    "pedagogyTool": "Field Sampling, Temple Waste Collection & Live Silage Protocols"
+  },
+  {
+    "id": "course-bioprocess-fermentation",
+    "code": "MIC-503",
+    "title": "Applied Industrial Microbiology & Fermentation",
+    "level": "Undergraduate B.Sc. (Semester V)",
+    "institution": "SIES College of Arts, Science & Commerce, Sion",
+    "academicYear": "Current / Ongoing",
+    "description": "Industrial upstream and downstream processing, bioreactor design, media optimization using agricultural by-products, aeration and agitation controls, and product recovery of pigments, enzymes, and organic acids.",
+    "keyTopics": [
+      "Batch, Fed-Batch & Continuous Bioreactors",
+      "Natural Media Formulations from Organic Waste",
+      "Downstream Pigment Extraction (Lutein & Carotene)",
+      "Gas Chromatography-Mass Spectrometry (GC-MS) Basics",
+      "Industrial Enzyme Assays (Cellulase & Protease)"
+    ],
+    "pedagogyTool": "Interactive Virtual Lab Simulations & Troubleshooting Scenarios"
+  },
+  {
+    "id": "course-laboratory-practicals",
+    "code": "MIC-201P",
+    "title": "B.Sc. Semester II Major Microbiology Laboratory Practicals",
+    "level": "Undergraduate B.Sc. (Semester II)",
+    "institution": "SIES College of Arts, Science & Commerce, Sion",
+    "academicYear": "Annual Course",
+    "description": "Hands-on fundamental laboratory practicals aligned with the co-authored practical manual. Students master aseptic transfer, differential Gram and endospore staining, pure culture isolation, serial dilutions, and enzyme kinetics.",
+    "keyTopics": [
+      "Aseptic Bench Handling & Autoclave Operation",
+      "Gram Staining, Acid-Fast & Endospore Staining",
+      "Pour Plate, Spread Plate & Streak Plate Techniques",
+      "Colony Morphology & Biochemical Characterization",
+      "Pre-Lab Worksheet Inquiries & Safety Drills"
+    ],
+    "pedagogyTool": "Pre-Lab Inquiries & Co-Authored Practical Manual (My Rays Publishing House)"
+  }
+]

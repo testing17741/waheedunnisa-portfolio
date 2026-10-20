@@ -1,0 +1,77 @@
+/**
+ * Utility Classes & Print Styles
+ */
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.mt-1 { margin-top: var(--space-1); }
+.mt-2 { margin-top: var(--space-2); }
+.mt-4 { margin-top: var(--space-4); }
+.mt-6 { margin-top: var(--space-6); }
+.mt-8 { margin-top: var(--space-8); }
+
+.mb-2 { margin-bottom: var(--space-2); }
+.mb-4 { margin-bottom: var(--space-4); }
+.mb-6 { margin-bottom: var(--space-6); }
+
+.font-mono { font-family: var(--font-mono); }
+.font-serif { font-family: var(--font-serif); }
+
+.d-flex { display: flex; }
+.align-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.gap-2 { gap: var(--space-2); }
+.gap-3 { gap: var(--space-3); }
+
+/* Print Media Query for Clean CV Printing */
+@media print {
+  body {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    font-size: 11pt;
+  }
+
+  .site-header,
+  .mobile-drawer,
+  .site-footer,
+  .theme-toggle-btn,
+  .btn,
+  .toast,
+  .modal-overlay,
+  .search-input-wrap,
+  .filter-bar,
+  .faq-icon,
+  .contact-form-box {
+    display: none !important;
+  }
+
+  .container,
+  .container-narrow {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .section {
+    padding: 1.5rem 0 !important;
+    border-bottom: 1px solid #CCC !important;
+    page-break-inside: avoid;
+  }
+
+  .card {
+    border: 1px solid #CCC !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
+
+  a {
+    color: #000000 !important;
+    text-decoration: underline !important;
+  }
+
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+  }
+}
