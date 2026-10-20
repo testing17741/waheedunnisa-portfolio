@@ -9,8 +9,9 @@ const helmet = require('helmet');
 const cors = require('cors');
 const rateLimit = require('express-rate-limit');
 const logger = require('./api/logger');
-const { handleContactInquiry } = require('./api/contact');
-const { handleHealthCheck, handlePublications } = require('./api/publications');
+const handleContactInquiry = require('./api/contact');
+const handleHealthCheck = require('./api/health');
+const handlePublications = require('./api/publications');
 
 const app = express();
 const PORT = process.env.PORT || 3000;

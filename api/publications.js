@@ -2,33 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const logger = require('./logger');
 
-const startTime = Date.now();
-
-/**
- * Health check handler
- * Reports server status, uptime, system memory, and operational readiness.
- */
-function handleHealthCheck(req, res) {
-  const uptimeSeconds = Math.floor((Date.now() - startTime) / 1000);
-  const memoryUsage = process.memoryUsage();
-
-  return res.status(200).json({
-    success: true,
-    data: {
-      status: 'healthy',
-      service: 'waheedunnisa-academic-portfolio-api',
-      uptimeSeconds,
-      timestamp: new Date().toISOString(),
-      environment: process.env.NODE_ENV || 'production',
-      memory: {
-        heapUsedMb: Math.round((memoryUsage.heapUsed / 1024 / 1024) * 100) / 100,
-        rssMb: Math.round((memoryUsage.rss / 1024 / 1024) * 100) / 100
-      }
-    },
-    error: null
-  });
-}
-
 let staticPublications = [];
 try {
   staticPublications = require('../public/data/publications.json');
@@ -37,7 +10,7 @@ try {
 }
 
 /**
- * Publications listing handler
+ * Publications listing handler (Express & Vercel serverless compatible)
  * Returns published academic papers with optional category filtering.
  */
 function handlePublications(req, res) {
@@ -46,7 +19,7 @@ function handlePublications(req, res) {
       ? [...staticPublications]
       : JSON.parse(fs.readFileSync(path.join(__dirname, '../public/data/publications.json'), 'utf-8'));
 
-    const { category, type, search } = req.query;
+    const { category, type, search } = req.query || {};
 
     if (category) {
       publications = publications.filter(p => p.category === category);
@@ -86,7 +59,4 @@ function handlePublications(req, res) {
   }
 }
 
-module.exports = {
-  handleHealthCheck,
-  handlePublications
-};
+module.exports = handlePublications;

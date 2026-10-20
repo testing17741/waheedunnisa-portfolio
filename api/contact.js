@@ -146,7 +146,6 @@ async function handleContactInquiry(req, res, next) {
   }
 }
 
-module.exports = {
-  handleContactInquiry,
-  contactSchema
-};
+module.exports = handleContactInquiry;
+module.exports.handleContactInquiry = handleContactInquiry;
+module.exports.contactSchema = contactSchema;
